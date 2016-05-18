@@ -1,0 +1,25 @@
+{
+  "name": "primer-buttons",
+  "version": "0.1.0",
+  "description": "GitHub Primer - Buttons",
+  "homepage": "https://github.com/styleguide",
+  "license": "MIT",
+  "repository": "https://github.com/primer/buttons.git",
+  "main": "alerts.scss",
+  "bugs": {
+    "url": "https://github.com/primer/buttons/issues"
+  },
+  "author": "GitHub, Inc.",
+  "scripts": {
+    "test": "scss-lint *.scss"
+  },
+  "dependencies": {
+    "primer-support": "^0.2.0"
+  },
+  "keywords": [
+    "primer",
+    "css",
+    "github",
+    "primercss"
+  ]
+}
