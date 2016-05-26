@@ -15,7 +15,7 @@
   background-image: linear-gradient(#fcfcfc, #eee);
   border: 1px solid #d5d5d5;
   border-radius: 3px;
-  -webkit-appearance: none; // Corrects inability to style clickable `input` types in iOS.
+  appearance: none; // Corrects inability to style clickable `input` types in iOS.
 
   i {
     font-style: normal;
@@ -223,14 +223,12 @@
   border-bottom-right-radius: 0;
 }
 
-
 // Minibutton overrides
 //
 // Tweak `line-height` to make them smaller.
 .btn-sm {
   padding: 2px 10px;
 }
-
 
 // Hidden text button
 //
@@ -273,7 +271,6 @@
   }
 }
 
-
 // Social count bubble
 //
 // A container that is used for social bubbles counts.
@@ -302,7 +299,6 @@
   }
 }
 
-
 // Full-width button
 //
 // These buttons expand to the full width of their parent container
@@ -326,7 +322,7 @@
   user-select: none;
   background-color: transparent;
   border: 0;
-  -webkit-appearance: none; // Corrects inability to style clickable `input` types in iOS.
+  appearance: none; // Corrects inability to style clickable `input` types in iOS.
 
   &:hover,
   &:focus {
