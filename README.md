@@ -7,10 +7,6 @@
 
 This repository is a module of the full [primer-css][primer] repository.
 
-## Documentation
-
-You can read more about buttons in the [docs][docs].
-
 ## Install
 
 This repository is distributed with [npm][npm]. After [installing npm][install-npm], you can install `primer-buttons` with this command.
@@ -37,18 +33,193 @@ For a compiled **css** version of this module, a npm script is included that wil
 $ npm run build
 ```
 
-## Related
+## Documentation
 
-* [Primer Documentation][docs]
-* [primer-css][primer]
-* [primer-support][primer-support]
+You can read more about other primer modules in the [full primer docs][docs].
+
+<!-- %docs
+title: Buttons
+-->
+
+### Buttons
+
+Buttons are used for **actions**, like in forms, while textual hyperlinks are used for **destinations**, or moving from one page to another.
+
+#### Default buttons
+
+Use the standard—yet classy—`.btn` for form actions and primary page actions. These are used extensively around the site.
+
+When using a `<button>` element, **always specify a `type`**. When using a `<a>` element, **always add `role="button"` for accessibility**.
+
+```html
+<button class="btn" type="button">Button button</button>
+<a class="btn" href="#" role="button">Link button</a>
+```
+
+You can find them in two sizes: the default `.btn` and the smaller `.btn-sm`.
+
+```html
+<button class="btn" type="button">Button</button>
+<button class="btn btn-sm" type="button">Small button</button>
+```
+
+#### Primary
+
+Primary buttons are green and are used to indicate the *primary* action on a page. When you need your buttons to stand out, use `.btn.btn-primary`. You can use it with both button sizes—just add `.btn-primary`.
+
+```html
+<button class="btn btn-primary" type="button">Primary button</button>
+<button class="btn btn-sm btn-primary" type="button">Small primary button</button>
+```
+
+#### Danger
+
+Danger buttons are red. They help reiterate that the intended action is important or potentially dangerous (e.g., deleting a repo or transferring ownership). Similar to the primary buttons, just add `.btn-danger`.
+
+```html
+<button class="btn btn-danger" type="button">Danger button</button>
+<button class="btn btn-sm btn-danger" type="button">Small danger button</button>
+```
+
+#### Outline
+
+Outline buttons downplay an action as they appear like boxy links. Just add `.btn-outline` and go.
+
+```html
+<button class="btn btn-outline" type="button">Outline button</button>
+<button class="btn btn-sm btn-outline" type="button">Outline button</button>
+```
+
+#### Disabled state
+
+Disable `<button>` elements with the boolean `disabled` attribute and `<a>` elements with the `.disabled` class.
+
+```html
+<button class="btn" type="button" disabled>Disabled button</button>
+<a class="btn disabled" href="#" role="button">Disabled button</a>
+```
+
+Similar styles are applied to primary, danger, and outline buttons:
+
+```html
+<button class="btn btn-primary" type="button" disabled>Disabled button</button>
+<a class="btn btn-primary disabled" href="#" role="button">Disabled button</a>
+```
+
+```html
+<button class="btn btn-danger" type="button" disabled>Disabled button</button>
+<a class="btn btn-danger disabled" href="#" role="button">Disabled button</a>
+```
+
+```html
+<button class="btn btn-outline" type="button" disabled>Disabled button</button>
+<a class="btn btn-outline disabled" href="#" role="button">Disabled button</a>
+```
+
+#### Block buttons
+
+Make any button full-width by adding `.btn-block`. It adds `width: 100%;`, changes the `display` from `inline-block` to `block`, and centers the button text.
+
+```html
+<p><button class="btn btn-block" type="button">Block button</button></p>
+<p><button class="btn btn-sm btn-block" type="button">Small block button</button></p>
+```
+
+#### With counts
+
+You can easily append a count to a **small button**. Add the `.with-count` class to the `.btn-sm` and then add the `.social-count` after the button.
+
+**Be sure to clear the float added by the additional class.**
+
+```html
+<div class="clearfix">
+  <a class="btn btn-sm btn-with-count" href="#" role="button">
+    <%= octicon :symbol => "eye" %>
+    Watch
+  </a>
+  <a class="social-count" href="#">6</a>
+</div>
+```
+
+You can also use the [counter](../utilities/#counter) component within buttons:
+
+```html
+<button class="btn" type="button">
+  Button
+  <span class="counter">12</span>
+</button>
+
+<button class="btn btn-primary" type="button">
+  Button
+  <span class="counter">12</span>
+</button>
+
+<button class="btn btn-danger" type="button">
+  Button
+  <span class="counter">12</span>
+</button>
+
+<button class="btn btn-outline" type="button">
+  Button
+  <span class="counter">12</span>
+</button>
+```
+
+#### Button groups
+
+Have a hankering for a series of buttons that are attached to one another? Wrap them in a `.btn-group` and the buttons will be rounded and spaced automatically.
+
+```html
+<div class="btn-group">
+  <button class="btn" type="button">Button</button>
+  <button class="btn" type="button">Button</button>
+  <button class="btn" type="button">Button</button>
+</div>
+
+<div class="btn-group">
+  <button class="btn btn-outline" type="button">Button</button>
+  <button class="btn btn-outline" type="button">Button</button>
+  <button class="btn btn-outline" type="button">Button</button>
+</div>
+
+<div class="btn-group">
+  <button class="btn btn-sm" type="button">Button</button>
+  <button class="btn btn-sm" type="button">Button</button>
+  <button class="btn btn-sm" type="button">Button</button>
+</div>
+```
+
+Add `.btn-group-form` to `<form>`s within `.btn-group`s for proper spacing and rounded corners.
+
+```html
+<div class="btn-group">
+  <form class="btn-group-form">
+    <button class="btn" type="button">Button in a form</button>
+  </form>
+  <button class="btn" type="button">Button</button>
+  <button class="btn" type="button">Button</button>
+</div>
+```
+
+#### Hidden text button
+
+Use `.hidden-text-expander` to indicate and toggle hidden text.
+
+```html
+<span class="hidden-text-expander">
+  <button type="button" class="ellipsis-expander">&hellip;</button>
+</span>
+```
+
+You can also make the expander appear inline by adding `.inline`.
+
+<!-- %enddocs -->
 
 ## License
 
-MIT &copy; [GitHub](https://github.com/)
+[MIT](./LICENSE) &copy; [GitHub](https://github.com/)
 
 [primer]: https://github.com/primer/primer
-[primer-support]: https://github.com/primer/primer-support
 [docs]: http://primercss.io/
 [npm]: https://www.npmjs.com/
 [install-npm]: https://docs.npmjs.com/getting-started/installing-node
