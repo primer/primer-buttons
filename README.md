@@ -135,7 +135,7 @@ You can easily append a count to a **small button**. Add the `.with-count` class
 ```html
 <div class="clearfix">
   <a class="btn btn-sm btn-with-count" href="#" role="button">
-    <%= octicon :symbol => "eye" %>
+    <%= octicon "eye" %>
     Watch
   </a>
   <a class="social-count" href="#">6</a>
