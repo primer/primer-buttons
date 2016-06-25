@@ -1,5 +1,6 @@
 # HEAD
 
+ * Updating octicons to deprecate the use of :symbol - Jon Rohan [github/github@9eb0c63](https://github.com/github/github/commit/9eb0c63)
  * Adding link to homepage in readme docs - Jon Rohan [github/github@633f421](https://github.com/github/github/commit/633f421)
  * Removing some unnecessary lint plugins and using native - Jon Rohan [github/github@2ae0070](https://github.com/github/github/commit/2ae0070)
  * including no-utility lint plugin - Jon Rohan [github/github@5cb86ed](https://github.com/github/github/commit/5cb86ed)
