@@ -40,6 +40,7 @@ You can read more about other primer modules in the [full primer docs][docs].
 <!-- %docs
 title: Buttons
 homepage: https://github.com/primer/buttons
+status: Stable
 -->
 
 ### Buttons
