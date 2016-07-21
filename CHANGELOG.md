@@ -1,3 +1,7 @@
+# HEAD
+
+ * Updating the modules stylelint - Jon Rohan [github/github@389609f](https://github.com/github/github/commit/389609f)
+
 # v0.3.0
 
  * Bumping to a new version - Jon Rohan [github/github@ff32813](https://github.com/github/github/commit/ff32813)
