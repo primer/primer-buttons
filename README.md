@@ -5,7 +5,7 @@
 
 > Buttons are used for actions, like in forms, while textual hyperlinks are used for destinations, or moving from one page to another.
 
-This repository is a module of the full [primer-css][primer] repository.
+This repository is a module of the full [primer-css][primer-css] repository.
 
 ## Install
 
@@ -221,7 +221,7 @@ You can also make the expander appear inline by adding `.inline`.
 
 [MIT](./LICENSE) &copy; [GitHub](https://github.com/)
 
-[primer]: https://github.com/primer/primer
+[primer-css]: https://github.com/primer/primer
 [docs]: http://primercss.io/
 [npm]: https://www.npmjs.com/
 [install-npm]: https://docs.npmjs.com/getting-started/installing-node
