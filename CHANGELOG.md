@@ -1,5 +1,6 @@
 # HEAD
 
+ * Updating link to real primer-css repository - Jon Rohan [github/github@bbaedda](https://github.com/github/github/commit/bbaedda)
  * Updating the modules stylelint - Jon Rohan [github/github@389609f](https://github.com/github/github/commit/389609f)
 
 # v0.3.0
