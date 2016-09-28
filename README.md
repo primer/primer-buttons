@@ -169,37 +169,38 @@ You can also use the [counter](../utilities/#counter) component within buttons:
 
 #### Button groups
 
-Have a hankering for a series of buttons that are attached to one another? Wrap them in a `.btn-group` and the buttons will be rounded and spaced automatically.
+Have a hankering for a series of buttons that are attached to one another? Wrap them in a `.BtnGroup` and the buttons will be rounded and spaced automatically.
 
 ```html
-<div class="btn-group">
-  <button class="btn" type="button">Button</button>
-  <button class="btn" type="button">Button</button>
-  <button class="btn" type="button">Button</button>
+<div class="BtnGroup mr-2">
+  <button class="btn BtnGroup-item" type="button">Button</button>
+  <button class="btn BtnGroup-item" type="button">Button</button>
+  <button class="btn BtnGroup-item" type="button">Button</button>
 </div>
 
-<div class="btn-group">
-  <button class="btn btn-outline" type="button">Button</button>
-  <button class="btn btn-outline" type="button">Button</button>
-  <button class="btn btn-outline" type="button">Button</button>
+<div class="BtnGroup mr-2">
+  <button class="btn BtnGroup-item btn-outline" type="button">Button</button>
+  <button class="btn BtnGroup-item btn-outline" type="button">Button</button>
+  <button class="btn BtnGroup-item btn-outline" type="button">Button</button>
 </div>
 
-<div class="btn-group">
-  <button class="btn btn-sm" type="button">Button</button>
-  <button class="btn btn-sm" type="button">Button</button>
-  <button class="btn btn-sm" type="button">Button</button>
+<div class="BtnGroup">
+  <button class="btn BtnGroup-item btn-sm" type="button">Button</button>
+  <button class="btn BtnGroup-item btn-sm" type="button">Button</button>
+  <button class="btn BtnGroup-item btn-sm" type="button">Button</button>
 </div>
 ```
 
-Add `.btn-group-form` to `<form>`s within `.btn-group`s for proper spacing and rounded corners.
+Add `.BtnGroup-form` to `<form>`s within `.BtnGroup`s for proper spacing and rounded corners.
 
 ```html
-<div class="btn-group">
-  <form class="btn-group-form">
-    <button class="btn" type="button">Button in a form</button>
+<div class="BtnGroup">
+  <button class="btn BtnGroup-item" type="button">Button</button>
+  <form class="BtnGroup-form">
+    <button class="btn BtnGroup-item" type="button">Button in a form</button>
   </form>
-  <button class="btn" type="button">Button</button>
-  <button class="btn" type="button">Button</button>
+  <button class="btn BtnGroup-item" type="button">Button</button>
+  <button class="btn BtnGroup-item" type="button">Button</button>
 </div>
 ```
 

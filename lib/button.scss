@@ -1,4 +1,5 @@
 // Shared styles
+// stylelint-disable selector-no-type
 .btn {
   position: relative;
   display: inline-block;
@@ -319,6 +320,7 @@
   padding: 0;
   font-size: inherit;
   color: $text-blue;
+  text-decoration: none;
   white-space: nowrap;
   cursor: pointer;
   user-select: none;
