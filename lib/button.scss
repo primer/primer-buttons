@@ -336,4 +336,10 @@
   &:focus {
     outline: none; // Prevents the blue ring when clicked.
   }
+
+  &:disabled {
+    color: $text-gray;
+    pointer-events: none;
+    cursor: default;
+  }
 }

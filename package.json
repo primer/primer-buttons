@@ -11,9 +11,9 @@
     "lib",
     "build"
   ],
-  "repository": "https://github.com/primer/buttons.git",
+  "repository": "https://github.com/primer/primer-buttons.git",
   "bugs": {
-    "url": "https://github.com/primer/buttons/issues"
+    "url": "https://github.com/primer/primer-buttons/issues"
   },
   "scripts": {
     "setup": "if [ ! -d \"node_modules\" ]; then npm install; fi",
