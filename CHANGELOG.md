@@ -1,5 +1,6 @@
 # HEAD
 
+ * Rename repository with prefix primer- - Jon Rohan [github/github@ec8774a](https://github.com/github/github/commit/ec8774a)
  * Separating out modules into primer-core and primer-product - Jon Rohan [github/github@ddf698c](https://github.com/github/github/commit/ddf698c)
 
 # v0.3.1
