@@ -328,13 +328,8 @@
   border: 0;
   appearance: none; // Corrects inability to style clickable `input` types in iOS.
 
-  &:hover,
-  &:focus {
+  &:hover {
     text-decoration: underline;
-  }
-
-  &:focus {
-    outline: none; // Prevents the blue ring when clicked.
   }
 
   &:disabled {
