@@ -35,15 +35,10 @@ $ npm run build
 
 ## Documentation
 
-You can read more about other primer modules in the [full primer docs][docs].
-
 <!-- %docs
 title: Buttons
-homepage: https://github.com/primer/primer-buttons
 status: Stable
 -->
-
-### Buttons
 
 Buttons are used for **actions**, like in forms, while textual hyperlinks are used for **destinations**, or moving from one page to another.
 
