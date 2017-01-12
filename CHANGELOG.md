@@ -1,5 +1,10 @@
-# HEAD
+# v0.4.0
 
+ * Removing needless disables - Jon Rohan [github/github@6233c40](https://github.com/github/github/commit/6233c40)
+ * update buttons version number - broccolini [github/github@6504e09](https://github.com/github/github/commit/6504e09)
+ * Make all href #url - Mu-An Chiou [github/github@27ba40c](https://github.com/github/github/commit/27ba40c)
+ * Add placeholder URL and aria-expanded - Mu-An Chiou [github/github@8f6b03d](https://github.com/github/github/commit/8f6b03d)
+ * Make sure :disabled state is different from normal state on .btn-link - Mu-An Chiou [github/github@3e17fe6](https://github.com/github/github/commit/3e17fe6)
  * bump padding on social-count - broccolini [github/github@f12bd30](https://github.com/github/github/commit/f12bd30)
  * Make padding on btn-large more normal - Patrick Marsceill [github/github@6db7bbe](https://github.com/github/github/commit/6db7bbe)
  * Rename repository with prefix primer- - Jon Rohan [github/github@ec8774a](https://github.com/github/github/commit/ec8774a)
