@@ -50,7 +50,7 @@ When using a `<button>` element, **always specify a `type`**. When using a `<a>`
 
 ```html
 <button class="btn" type="button">Button button</button>
-<a class="btn" href="#" role="button">Link button</a>
+<a class="btn" href="#url" role="button">Link button</a>
 ```
 
 You can find them in two sizes: the default `.btn` and the smaller `.btn-sm`.
@@ -93,24 +93,24 @@ Disable `<button>` elements with the boolean `disabled` attribute and `<a>` elem
 
 ```html
 <button class="btn" type="button" disabled>Disabled button</button>
-<a class="btn disabled" href="#" role="button">Disabled button</a>
+<a class="btn disabled" href="#url" role="button">Disabled button</a>
 ```
 
 Similar styles are applied to primary, danger, and outline buttons:
 
 ```html
 <button class="btn btn-primary" type="button" disabled>Disabled button</button>
-<a class="btn btn-primary disabled" href="#" role="button">Disabled button</a>
+<a class="btn btn-primary disabled" href="#url" role="button">Disabled button</a>
 ```
 
 ```html
 <button class="btn btn-danger" type="button" disabled>Disabled button</button>
-<a class="btn btn-danger disabled" href="#" role="button">Disabled button</a>
+<a class="btn btn-danger disabled" href="#url" role="button">Disabled button</a>
 ```
 
 ```html
 <button class="btn btn-outline" type="button" disabled>Disabled button</button>
-<a class="btn btn-outline disabled" href="#" role="button">Disabled button</a>
+<a class="btn btn-outline disabled" href="#url" role="button">Disabled button</a>
 ```
 
 #### Block buttons
@@ -130,11 +130,11 @@ You can easily append a count to a **small button**. Add the `.with-count` class
 
 ```html
 <div class="clearfix">
-  <a class="btn btn-sm btn-with-count" href="#" role="button">
+  <a class="btn btn-sm btn-with-count" href="#url" role="button">
     <%= octicon "eye" %>
     Watch
   </a>
-  <a class="social-count" href="#">6</a>
+  <a class="social-count" href="#url">6</a>
 </div>
 ```
 
@@ -205,7 +205,7 @@ Use `.hidden-text-expander` to indicate and toggle hidden text.
 
 ```html
 <span class="hidden-text-expander">
-  <button type="button" class="ellipsis-expander">&hellip;</button>
+  <button type="button" class="ellipsis-expander" aria-expanded="false">&hellip;</button>
 </span>
 ```
 
