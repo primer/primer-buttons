@@ -1,3 +1,7 @@
+# v0.4.2
+
+ * update version numbers for primer package with bold update - broccolini [github/github@5d3e089](https://github.com/github/github/commit/5d3e089)
+
 # v0.4.1
 
  * More versions - Jon Rohan [github/github@e12ba2e](https://github.com/github/github/commit/e12ba2e)
