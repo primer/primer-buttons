@@ -1,3 +1,7 @@
+# v2.0.0
+
+ * bump button module version - broccolini [github/github@60d8022](https://github.com/github/github/commit/60d8022)
+
 # v1.0.1
 
  * Bump all the version numbers for readme - Mu-An Chiou [github/github@a9d152f](https://github.com/github/github/commit/a9d152f)
