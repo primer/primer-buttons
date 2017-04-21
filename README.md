@@ -172,27 +172,27 @@ You can easily append a count to a **small button**. Add the `.with-count` class
 </div>
 ```
 
-You can also use the [counter](../utilities/#counter) component within buttons:
+You can also use the [counter](../../product/components/labels) component within buttons:
 
 ```html
 <button class="btn" type="button">
   Button
-  <span class="counter">12</span>
+  <span class="Counter">12</span>
 </button>
 
 <button class="btn btn-primary" type="button">
   Button
-  <span class="counter">12</span>
+  <span class="Counter">12</span>
 </button>
 
 <button class="btn btn-danger" type="button">
   Button
-  <span class="counter">12</span>
+  <span class="Counter">12</span>
 </button>
 
 <button class="btn btn-outline" type="button">
   Button
-  <span class="counter">12</span>
+  <span class="Counter">12</span>
 </button>
 ```
 
